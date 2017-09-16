@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-------------------------Welcome To LearnZilla!-------------------------------------->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LearnZilla - Discover AdWords Online For Free</title>
+    <meta name="description" content="LearnZilla is an online learning platform for future marketing rockstars.">
+    <meta name="keywords" content="digital marketing, learn adwords online, learn google adwords">
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css"  href="../css/stylesLZ.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="../js/modernizr.custom.js"></script>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="learn-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><span>Learn</span>Zilla</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-home" class="page-scroll" style="background:none;">Home</a></li>
+            <li><a href="#tf-about" class="page-scroll">Learn</a></li>
+            <li><a href="#tf-team" class="page-scroll">Services/Training</a></li>
+            <li><a href="#tf-services" class="page-scroll">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+      
+
+      
+      
+    <!-- Training / Services =========================== -->
+<div id="learn-steps">
+    <h1><strong>Our 3 Step Process</strong></h1>
+    
+    <div class="container container1 text-center">
+        <div class="steps">
+            <div class="learn-vr"></div>
+            <div class="learn-vr2"></div>
+            
+            <span class="step">1</span>
+                  <h2 class="step__heading">Watch Videos</h4>
+                  <p class="step__description">We put all your federal and private loan information in one place so you can see where you stand and what you can do about it immediately.</p>
+        </div>
+            
+        <div class="steps">
+             <span class="step">2</span>
+                  <h2 class="step__heading">Take Quizzes Inbetween</h4>
+                  <p class="step__description">We put all your federal and private loan information in one place so you can see where you stand and what you can do about it immediately.</p>
+         </div>
+        
+        <div class="steps">
+            <span class="step">3</span>
+                  <h2 class="step__heading">Profit</h4>
+                  <p class="step__description">We put all your federal and private loan information in one place so you can see where you stand and what you can do about it immediately.</p>
+         </div>
+        
+        
+        
+        <div class="col-md-12 col-xs-12">
+            <button class="btn btn-lg">Ready!</button>
+        </div>
+         
+    </div>
+</div>
+      
+    <!-- Top Icons
+    ==========================================-->
+      
+<div id="learn-icons">
+    <div class="container container1 text-center">
+        <div class="col-md-4 col-xs-4">
+        <img class="icon" src="../StockPhotos/adwords-vert.png" alt="AdWords Training"/>
+              <p class="text-center">Study for Google Adwords using our easy step-by-step tutorial or just jump in!</p>
+            <button class="btn btn-sm">Learn AdWords</button>
+        </div>
+            <div class="vr"></div>
+            <div class="vr1"></div>
+        <div class="col-md-4 col-xs-4 text-center">
+        <img  class="icon" src="../StockPhotos/analytics-vert.png" alt="Google Analytics Training"/>
+              <p class="text-center"> Take our course on Google Analytics and uncover gems hidden within your data.</p>
+            <button class="btn btn-sm">Learn Analytics</button>
+        </div>
+        
+        <div class="col-md-4 col-xs-4 text-center">
+        <span class="glyphicon glyphicon-th-list"  aria-hidden="true"></span>
+        <h2 class="icon text-center">Practice Tests</h2>
+            <p class="text-center">Take Practice Exams with actual questions from AdWords and Analytics tests.</p>
+            <button class="btn btn-sm">Practice Now</button>
+        </div>
+    </div>
+</div>
+
+      
+<!-- Why Hire LearnZilla ===================================== -->
+    
+    <div id="training">
+        <div class="container container1">      
+        <div class="text-center">
+              <h1><strong><span class="color">Why LearnZilla?</span></strong></h1>
+                <p class="subheader text-center">From one small business to another - we care about you. Don't hire an expensive marketing agency, you can do this. Our specialists are passionate about digital marketing and can help you set up, optimize, and configure your digital marketing channels. And in the process, we can teach you marketing agency tips and tricks that will help your business be successful..</p>
+                <button class="btn btn-lg">Let's Get Started</button>
+            </div>
+        </div>
+    </div>
+      
+
+    <!-- FOOTER   ==========================================-->
+
+    <nav id="footer-tr">
+        <div class="container">
+            <div class="pull-left fnav">
+                 <a class="navbar-brand" href="index.html"><span>Learn</span>Zilla</a>
+                <p>ALL RIGHTS RESERVED. COPYRIGHT LearnZilla ©  2016. Designed and Coded by <a href="https://plus.google.com/101363710804618522134/posts/p/pub">Dmitri Tymos</a></p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="../js/jquery.isotope.js"></script>
+
+    <script src="../js/owl.carousel.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="../js/main.js"></script>
+
+  </body>
+</html>
