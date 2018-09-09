@@ -44,9 +44,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LearnZilla - Contact Us</title>
-    <meta name="description" content="Learn how to use Google AdWords and Google Analytics Online using our free content, quizzes, and tips. Get free google adwords courses and google analytics online courses.">
-    <meta name="keywords" content="how to use google adwords, learn adwords, adwords tutorial, learn adwords online, learn google adwords">
+    <title>Contact Us | LearnZilla</title>
+    <meta name="description" content="Contact LearnZilla with questions about our coursres or website design and digital marketing services in Schaumburg and Chicago area.">
+    <meta name="keywords" content="google adwords, learn adwords, adwords tutorial, learn adwords online, learn google adwords, learn zilla, learnzilla, website design in schaumburg, ppc services in schaumburg, pay per click">
+    <link rel="canonical" href="https://www.learnzilla.com/contactus/" />
      
       
       
@@ -61,11 +62,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css"  href="../css/stylesLZ.css">
     <link rel="stylesheet" type="text/css" href="../css/responsive.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,800,900" rel="stylesheet">
 
     <meta name=viewport content="width=device-width, initial-scale=0.8">
 
@@ -101,8 +101,10 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../index.html" class="page-scroll" style="background:none;">Home</a></li>
             <li><a href="../learn/index.html" class="page-scroll">Learn</a></li>
-            <li><a href="../services/index.html" class="page-scroll">Services/Training</a></li>
+            <li><a href="../website-design-in-schaumburg/index.html" class="page-scroll">Services/Training</a></li>
             <li><a href="index.php" class="page-scroll">Contact</a></li>
+            <li><a href="tel:2243667557" class="page-scroll" style="color:#f8613f;font-weight:600;">
+            (224) 366-7557</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -138,7 +140,9 @@
         </div>
     </div>
         
-        <input class="btn btn-lg" type="submit" name="submit" value="Send" id="form-submit" id="submit"/>	
+        <input class="btn btn-lg" type="submit" name="submit" value="Send" id="form-submit" id="submit"/>
+        <h3> Or Call Us<br></h3>
+        <a href="tel:2243667557"><button class="btn btn-lg" style="font-size:1.3em; font-weight:500;">(224) 366-7557</button></a>
     
     <div class="row">
         <div class="col-m-12">
@@ -177,7 +181,7 @@
                     <p class="foot-p">Links</p>
                     <li><a href="../index.html">Learn</a>
                     </li>
-                    <li><a href="../../services/index.html">Agency Services</a>
+                    <li><a href="../../website-design-in-schaumburg/index.html">Agency Services</a>
                     </li>
                     <li><a href="../../contactus/index.php">About Us</a>
                     </li> 

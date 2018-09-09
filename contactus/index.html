@@ -44,9 +44,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LearnZilla - Contact Us</title>
-    <meta name="description" content="Learn how to use Google AdWords and Google Analytics Online using our free content, quizzes, and tips. Get free google adwords courses and google analytics online courses.">
-    <meta name="keywords" content="how to use google adwords, learn adwords, adwords tutorial, learn adwords online, learn google adwords">
+    <title>Contact Us | LearnZilla</title>
+    <meta name="description" content="Contact LearnZilla with questions about our coursres or website design and digital marketing services in Schaumburg and Chicago area.">
+    <meta name="keywords" content="google adwords, learn adwords, adwords tutorial, learn adwords online, learn google adwords, learn zilla, learnzilla, website design in schaumburg, ppc services in schaumburg, pay per click">
+    <link rel="canonical" href="https://www.learnzilla.com/contactus/" />
      
       
       
@@ -61,13 +62,11 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css"  href="../css/stylesLZ.css">
     <link rel="stylesheet" type="text/css" href="../css/responsive.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,800,900" rel="stylesheet">
 
-    <script type="text/javascript" src="../js/modernizr.custom.js"></script>
     <meta name=viewport content="width=device-width, initial-scale=0.8">
 
     <script>
@@ -102,8 +101,10 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../index.html" class="page-scroll" style="background:none;">Home</a></li>
             <li><a href="../learn/index.html" class="page-scroll">Learn</a></li>
-            <li><a href="../services/index.html" class="page-scroll">Services/Training</a></li>
+            <li><a href="../website-design-in-schaumburg/index.html" class="page-scroll">Services/Training</a></li>
             <li><a href="index.php" class="page-scroll">Contact</a></li>
+            <li><a href="tel:2243667557" class="page-scroll" style="color:#f8613f;font-weight:600;">
+            (224) 366-7557</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -118,34 +119,36 @@
     
     <div id="contact-head" class="text-center">     
     <form  action="index.php" role="form" method="post">
-        <div class="row">
-            <div class="col-sm-12">
-                <input type="text" name="name" id="name" placeholder=" Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-                <?php echo "<p class='text-danger'>$errName</p>";?>
-            </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <input type="text" name="name" id="name" placeholder=" Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+			<?php echo "<p class='text-danger'>$errName</p>";?>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <input type="email" name="email" id="email"  placeholder=" Email" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                <?php echo "<p class='text-danger'>$errEmail</p>";?>
-            </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <input type="email" name="email" id="email"  placeholder=" Email" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+			<?php echo "<p class='text-danger'>$errEmail</p>";?>
         </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <textarea type="text" name="message" rows="3" placeholder=" Ask us anything!" class="textarea"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-                <?php echo "<p class='text-danger'>$errMessage</p>";?>
-            </div>
+    </div>
+        
+    <div class="row">
+        <div class="col-sm-12">
+            <textarea type="text" name="message" rows="3" placeholder=" Ask us anything!" class="textarea"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+			<?php echo "<p class='text-danger'>$errMessage</p>";?>
         </div>
-
-        <input class="btn btn-lg" type="submit" name="submit" value="Send" id="form-submit" id="submit"/>	
-
-        <div class="row">
-            <div class="col-m-12">
-                <?php echo $result; ?>	
-            </div>
+    </div>
+        
+        <input class="btn btn-lg" type="submit" name="submit" value="Send" id="form-submit" id="submit"/>
+        <h3> Or Call Us<br></h3>
+        <a href="tel:2243667557"><button class="btn btn-lg" style="font-size:1.3em; font-weight:500;">(224) 366-7557</button></a>
+    
+    <div class="row">
+        <div class="col-m-12">
+            <?php echo $result; ?>	
         </div>
+    </div>
         
     </form>
     
@@ -178,7 +181,7 @@
                     <p class="foot-p">Links</p>
                     <li><a href="../index.html">Learn</a>
                     </li>
-                    <li><a href="../../services/index.html">Agency Services</a>
+                    <li><a href="../../website-design-in-schaumburg/index.html">Agency Services</a>
                     </li>
                     <li><a href="../../contactus/index.php">About Us</a>
                     </li> 
@@ -186,7 +189,7 @@
 
 
                     <div class="col-md-4 col-sm-4">
-                        <a class="navbar-brand" href="index.html"><span>Learn</span>Zilla</a>
+                        <a class="navbar-brand" href="../index.html"><span>Learn</span>Zilla</a>
                     
                         <p class="disc"> ALL RIGHTS RESERVED. COPYRIGHT LearnZilla ©  2016. Designed and Coded by <a href="https://plus.google.com/101363710804618522134/posts/p/pub">Dmitri Tymos</a></p>        
                     </div>
@@ -206,7 +209,6 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.1.11.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="../js/bootstrap.js"></script>
     <script type="text/javascript" src="../js/SmoothScroll.js"></script>

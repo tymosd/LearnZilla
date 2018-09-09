@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-------------------------Welcome To LearnZilla!-------------------------------------->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdWords Budget Script and Report | LearnZilla - AdWords News, Videos, &amp; Advice</title>
+    <meta name="description" content="AdWords Budget Script and Report - Learn Zilla">
+    <meta name="keywords" content="budget report script, adwords budget script, adwords budget report, adwords spend script">
+    <link rel="canonical" href="https://www.learnzilla.com/blog/budget-report-script/" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css"  href="../../css/stylesLZ.css">
+    <link rel="stylesheet" type="text/css" href="../../css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../css/prism.css"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,800,900" rel="stylesheet">
+
+    <meta name=viewport content="width=device-width, initial-scale=0.8">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NZ5NQZ');</script>
+      
+  </head>
+  <body>
+      
+      <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ5NQZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+      
+    <!-- Navigation
+    ==========================================-->
+    <nav id="learn-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html"><span>Learn</span>Zilla</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../index.html" class="page-scroll" style="background:none;">Home</a></li>
+            <li><a href="../../learn/index.html" class="page-scroll">Learn</a></li>
+            <li><a href="../../website-design-in-schaumburg/index.html" class="page-scroll">Services/Training</a></li>
+            <li><a href="../../contactus/index.php" class="page-scroll">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+      
+
+    <!-- Home Page    ==========================================-->
+    <div id="blog-scr">
+        <div class="yt-text">
+               <h1>Easy AdWords Budget Report Script</h2>
+                <p>October 1, 2017</p>
+            </div>
+        <img class="center" src="../../StockPhotos/adwords-script.png"/>
+            
+    </div>
+      
+      
+      
+    <!-- Training / Services =========================== -->
+<div id="blog-body">
+    <h1 class="text-center"><strong></strong></h1>
+    <div class="blog-text">
+        <h4>Tracking budgets for multiple accounts can take up infinite amounts of time, so I took to it and developed a script to help everyone keep track of their budgets. 
+        </h4>
+        <br>
+        <h2><strong>No More Wasting Time on Budets</strong>
+        </h2><br>
+        <img class="center" src="../../StockPhotos/budget-script.png"/>
+        <br>
+        <p>I had found myself struggling with automated scripts that are supposed to balance my spend – they rarely worked for me because of factors like lower spend during the weekend, holidays, or simple CPC fluctuations. So all I wanted is a report on how much my accounts had spent and I can then input my budgets myself. 
+        <br><br>
+        This script compiles the budgets from all of the accounts under your MCC, and tells you how much each of your campaigns has spent within each of the accounts.  From here, you can sum up the total account spend, or separate it out by campaign to figure out what you should be spending. 
+        <br> <br>
+            
+        <b>What you can change:</b><br><br>
+        Account Labels for Accounts to Include:  <br>
+        <code class="language-js">.withCondition("LabelNames CONTAINS_IGNORE_CASE 'AccountName'")</code>
+        
+         
+        <div>
+        Exclude Campaigns by Name:  <br>
+        <code class="language-js">var excludeCampaignNameContains = "used"</code><br>
+        </div>
+            <br>         
+        
+        <h2><strong>How It Works</strong></h2>
+       
+        <p>The script looks at your campaign budgets, and inputs them into your Google Spreadsheet daily, and you can make decisions on how to spend further. This script doesn't actually make any adjustments, but it lays out all of your accounts' MTD Spend in one neat spreadsheet.
+        <br><br>
+            
+        The data this script provides is:
+        <ul>
+            <li>Campaign Name</li>
+            <li>Cost(Spend): current month to yesterday. You can change the script to calculate Month to Date by removing “- 1” from row 26.</li>
+            <li>Number of Clicks this month</li>
+            <li>Current Daily Spend</li>
+        </ul>
+        
+        This allows you to then take the leftover spend, and divide it by the number of days left in the month. You can then allocate spends to each of the campaigns according to how much budget you have left. 
+        <br><br>
+        
+    
+        
+        If you would like to modify this script or have questions about it, feel free to <a href="../../contactus/index.php">contact us</a>.
+        <br><br>
+        <h4>Written by Dmitri Tymos</h4>
+        </div>
+    </div>
+      
+      
+<div id="help">    
+    <div class="container text-center">
+    <h1>Need Help With AdWords?</h1>
+    <a href="../../website-design-in-schaumburg/index.html"><button class="btn btn-lg">Our Services</button></a>
+    
+    
+    </div>
+</div>
+
+</body>
+    you've reached LearnZilla, we are currently away from the phone but leave us a message with your name and phone number and we'll get back to you within 24 hours.
+    <!--   ------------------- FOOOTER  ------------------------- -->
+<footer class="footer-blog">
+<nav id="footer-lrn">
+        <div class="container">
+            <div class="fnav">
+                <div class="col-md-12">
+                    <ul class="col-md-4 col-sm-4">
+                    <p class="foot-p">Company</p>
+                    <li><a href="../index.html">Home</a>
+                    </li>
+                    <li><a href="../../contactus/index.php">Contact</a>
+                    </li>
+                    <li><a href="../index.html">Blog</a>
+                    </li>             
+                    </ul>
+                    <ul class="col-md-4 col-sm-4">
+                    <p class="foot-p">Links</p>
+                    <li><a href="../../learn/index.html">Learn</a>
+                    </li>
+                    <li><a href="../../website-design-in-schaumburg/index.html">Agency Services</a>
+                    </li>
+                    <li><a href="../../contactus/index.php">About Us</a>
+                    </li> 
+                    </ul>
+
+
+                    <div class="col-md-4 col-sm-4">
+                        <a class="navbar-brand" href="index.html"><span>Learn</span>Zilla</a>
+                    
+                        <p class="disc"> ALL RIGHTS RESERVED. COPYRIGHT LearnZilla ©  2017. Designed and Coded by <a href="https://plus.google.com/101363710804618522134/posts/p/pub">Dmitri Tymos</a></p>        
+                    </div>
+                </div>
+
+                <ul class="footer-blog-social col-md-12 col-lg-12 col-sm-12">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/dmitritymos/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+
+    </div>
+    
+</nav>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="../../js/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="../../js/main.js"></script>
+
+</html>
